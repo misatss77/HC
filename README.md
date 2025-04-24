@@ -1,1 +1,17 @@
-# HC
+## Diagram Alur Pemenuhan SDM
+
+```mermaid
+flowchart TD
+  A[1. Identifikasi Kebutuhan SDM] --> B[2. Persetujuan Manajer HRD]
+  B --> C{3. Sumber Rekrutmen}
+  C --> C1[Internal Posting]
+  C --> C2[Eksternal Posting]
+  C1 --> D[4a. Seleksi Internal]
+  C2 --> D[4b. Seleksi CV & Screening Awal]
+  D --> E[5. Wawancara Tahap I (HR)]
+  E --> F[6. Wawancara Tahap II (Hiring Manager)]
+  F --> G[7. Tes Kompetensi / Assessment]
+  G --> H[8. Cek Referensi & Background]
+  H --> I[9. Penawaran Kerja]
+  I --> J[10. Onboarding & Orientasi]
+  J --> K[11. Evaluasi & Feedback 30 Hari]
